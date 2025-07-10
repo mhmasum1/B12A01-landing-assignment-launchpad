@@ -1,0 +1,166 @@
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.nav-design {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 3%;
+    left: 10%;
+    width: 80%;
+}
+
+.logo-design {
+    color: #4E47FF;
+    font-size: 34px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #4E47FF;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 28px;
+
+}
+
+.hero-design {
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    height: 698px;
+    width: 100%;
+}
+
+.hero-context {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #252432;
+    text-align: center;
+
+}
+
+.hero-context h1 {
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: 35px;
+
+}
+
+.users {
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: #F5F8FF;
+
+}
+
+.user-title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    margin-top: 27px;
+    margin-bottom: 50px;
+    padding-top: 40px;
+}
+
+.users-title {
+    font-weight: bold;
+    font-size: xxx-large;
+    color: #443edb;
+
+}
+
+.users p {
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+
+.Productive-Users-Section {
+    background-color: #d1d0e9;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.touch-section {
+    display: flex;
+    height: 632px;
+    align-items: center;
+
+
+}
+
+.touch-left-side {
+    width: 50%;
+    font-size: xxx-large;
+}
+
+
+.touch-right-side {}
+
+.input-name {
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    margin-top: 10px;
+    border: none;
+    padding-left: 10px;
+
+}
+
+.input-mesg {
+    width: 461px;
+    height: 180px;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    border: none;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.btn-primary-add {
+    width: 100%;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links {}
+
+footer {
+    margin-bottom: 50px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-context {
+    display: flex;
+    justify-content: center;
+}
