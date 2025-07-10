@@ -149,18 +149,33 @@ main {
     text-decoration: none;
 }
 
-.links {}
+.links {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+
+.links a {
+    margin-right: 35px;
+}
 
 footer {
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .footer-title {
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
+    color: #4E47FF;
+    font-size: 100px;
 }
 
 .footer-context {
     display: flex;
     justify-content: center;
+    text-align: center;
+
 }
