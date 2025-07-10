@@ -179,3 +179,26 @@ footer {
     text-align: center;
 
 }
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 220px;
+    justify-content: space-between;
+    margin: 116px 0;
+}
+
+.action-img {
+    border-radius: 48px;
+}
+
+.action-title {
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.action-des {
+    font-size: 24px;
+    margin-bottom: 23px;
+}
