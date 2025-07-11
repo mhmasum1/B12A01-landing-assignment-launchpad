@@ -73,8 +73,11 @@
 main {
     max-width: 1140px;
     margin: 0 auto;
-    background-color: #F5F8FF;
 
+}
+
+.body-color {
+    background-color: #F5F8FF;
 }
 
 .user-title {
@@ -245,4 +248,14 @@ footer {
     color: #FFB805;
     font-size: 25px;
     margin-bottom: 30px;
+}
+
+.hover-effect {
+    transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+    background-color: yellowgreen;
+    color: white;
+    transform: scale(1.05);
 }
